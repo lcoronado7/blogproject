@@ -1,0 +1,40 @@
+body{/*CUANDO SE HACE REFERENCIA A UNA ETIQUETA COMUN*/
+    background-image:url(../Image/cieloestrellas.png); /*SE UTILIZA ../ PARA VOLVER A LA CARPETA DE ATRAS*/
+}
+.jumbotron{/*CUANDO SE HACE REFERENCIA A UNA CLASE*/
+    background-color: #4286f4;
+    color:white;
+}
+.panel-heading{
+    background-color: #4286f4 !important; /*SE UTILIZA EL !important PARA QUE TOME EL ESTILO COLOCADO Y LO EL PREASIGNADO POR BOOTSTRAP*/
+    color: white !important;
+}
+nav{
+    background-color: #4286f4 !important;
+    border-color:#4286f4 !important;
+}
+.panel-body{
+    color:gray !important;
+}
+#navbar{ /*CUANDO SE QUIERE HACER REFERENCIA AL id DE UNA ETIQUETA*/
+    
+}
+/*PSEUDOCLASES O PSEUDONORMAS*/
+.navbar-brand:link,.navbar-brand:visited{
+    color:white !important;
+}
+.btn bnt-default{
+   background-color : #4286f4 !important;
+}
+.navbar-brand:hover,.navabar-brand:active{
+    color:black !important;
+}
+#navbar li a:link,#navbar li a:visited{
+    color:whitesmoke !important;
+}
+#navbar li a:hover,#navbar li a:active{
+    color:black !important;
+}
+
+
+
